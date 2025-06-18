@@ -8,7 +8,7 @@ body {
 
 @layer base {
   :root {
-    --background: 15 67% 94%; /* Pale Peach */
+    --background: var(--primary); /* Using primary color (Dusty Rose) for background */
     --foreground: 340 10% 25%; /* Dark desaturated rose/brown */
 
     --card: 15 50% 98%; /* Lighter Peach / Off-white */
@@ -54,7 +54,7 @@ body {
   }
 
   .dark {
-    --background: 340 10% 15%; /* Dark desaturated rose/brown */
+    --background: var(--primary); /* Using primary color (Lighter Dusty Rose) for background */
     --foreground: 15 50% 90%; /* Light Peach */
 
     --card: 340 10% 20%;
